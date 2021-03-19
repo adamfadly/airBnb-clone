@@ -1,0 +1,33 @@
+.bigBanner {
+  margin-top: 30px;
+  background-size: cover;
+  background: url("https://a0.muscache.com/im/pictures/c800f7ee-da2e-45f5-969a-65827cb63e81.jpg")
+    center center;
+  background-position: center center;
+  width: 100%;
+  height: 50vh;
+}
+
+.banner_info {
+  color: white;
+  max-width: 280px;
+  padding: 40px 40px;
+}
+
+.banner_info > p {
+  margin-top: 20px;
+}
+
+.button_banner {
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #444444;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  margin-top: 50px;
+}
+
+button {
+}
