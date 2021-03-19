@@ -1,12 +1,17 @@
 import "./App.css";
-import SideBar from "./Components/SideBar/SideBar";
+import Header from "./Components/Header/Header";
 function App() {
   return (
     <div className="App">
-      <SideBar />
+      <Header />
+
       <div>
-        <h1>Header</h1>
-        <h1>Body</h1>
+        {/* header */}
+        {/* banner */}
+        {/* search */}
+
+        {/* card */}
+        {/* footer */}
       </div>
     </div>
   );
