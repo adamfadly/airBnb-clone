@@ -1,7 +1,7 @@
 .bigBanner {
   margin-top: 30px;
   background-size: cover;
-  background: url("https://a0.muscache.com/im/pictures/c800f7ee-da2e-45f5-969a-65827cb63e81.jpg")
+  background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg")
     center center;
   background-position: center center;
   width: 100%;
@@ -12,10 +12,50 @@
   color: white;
   max-width: 280px;
   padding: 40px 40px;
+  background-color: black;
+  height: 38.2vh;
+  opacity: 1;
 }
 
 .banner_info > p {
   margin-top: 20px;
+}
+
+.button_banner {
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #ff385c;
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+/* .bigWrapper {
+  width: 100%;
+
+  position: absolute;
+  border-radius: 10px;
+} */
+/* 
+.bigWrapper > img {
+  border-radius: 10px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.Content {
+  position: relative;
+  color: white;
+  max-width: 280px;
+  padding: 40px 40px;
+  margin-top: 20px;
+  margin-left: 7em;
+  margin-right: 7em;
 }
 
 .button_banner {
@@ -27,7 +67,4 @@
   outline: none;
   border: none;
   margin-top: 50px;
-}
-
-button {
-}
+} */
