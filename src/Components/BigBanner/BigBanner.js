@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./BigBanner.css";
+import { Button } from "@material-ui/core";
 
 function BigBanner() {
+  const [showSearch, setShowSearch] = useState();
+
   return (
     <div class="bigBanner">
+      <div className="banner__search">
+        {showSearch && <h1>Date Picker</h1>}
+
+        <Button
+          onClick={() => setShowSearch(!showSearch)}
+          variant="outlined"
+          className="banner__searchButton"
+        >
+          Search Dates
+        </Button>
+      </div>
       <div className="banner_info">
         <h1>Your World is Worth Sharing</h1>
         <p>Turn your Extra space into your next opportunity</p>
