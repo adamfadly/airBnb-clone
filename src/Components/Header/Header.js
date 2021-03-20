@@ -2,6 +2,8 @@ import React from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import { Avatar } from "@material-ui/core";
 
 function Header() {
   return (
@@ -19,6 +21,8 @@ function Header() {
         <div className="header__right">
           <p>Become a Host</p>
           <LanguageIcon />
+          <ExpandMoreIcon />
+          <Avatar />
         </div>
       </div>
       <hr />
